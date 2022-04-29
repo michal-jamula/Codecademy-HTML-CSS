@@ -1,0 +1,180 @@
+
+* {
+	box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	min-height: 100vh;
+    background-color: #d8d8d8;
+}
+h1 {
+    color: #34495e;
+    font-size: 26px;
+}
+
+h2,
+h3,
+a {
+    font-size: 22px;
+    color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Navigation bar styling */
+
+.logo {
+	font-size: 1.6em;
+}
+
+.main-nav {
+    display: flex;
+	margin-top: 5px;
+    list-style: none;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+
+.main-nav a:hover {
+	color: #718daa;
+    text-decoration: underline;
+}
+
+
+.logo,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+
+.header {
+    display: flex;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15em 0 15em;
+    
+}
+
+/* End of navigation styling */
+
+
+
+
+
+article {
+    margin: 1.5em 15em 0 15em;
+    background-color: #ececec;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 1.5em 2em 1.5em 2em;
+    border-top: 2em solid #d8d8d8;
+    border-bottom: 2em solid #d8d8d8;
+}
+
+.color-container {
+    display:flex;
+    flex-direction: row;
+
+}
+
+
+.color-panel {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.color-panel p {
+    text-align: center;
+}
+
+
+
+/* Site colours */
+.darkwhite {
+    background-color: #d8d8d8;
+}
+
+.lightwhite {
+    background-color: #ececec;
+}
+
+.mintgreen {
+    background-color: #4fe0b0;
+}
+
+.turquoise {
+    background-color: #44b3bb;
+}
+/* End of site colours */
+
+
+
+/* Fonts */
+.front-panel .lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.open_sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.libre_bodoni {
+    font-family: 'Libre Bodoni', sans-serif;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+.large {
+    font-size:large;
+}
+/* End of fonts */
+
+
+.font-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1em 1em 1em 3em;
+    row-gap: 2em;
+}
+
+
+.text-panel {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 1em;
+}
+
+footer {
+    background-color: #f4f4f4;
+    margin: 0 15em 0 15em;
+    border: 1px solid grey;
+    border-top-right-radius: 0.33em;
+    border-top-left-radius: 0.33em;
+    padding: 1em 1em 2em 2em;
+}
